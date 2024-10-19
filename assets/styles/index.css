@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+main{
+    height : 100vh;
+    width : 100vw;
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.card{
+    width:24rem;
+    height: 32rem;
+    border-radius:1.25rem;
+    background-color: #fff;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+.img{
+    border-radius: 1.25rem;
+    height: 12.5rem;
+    width: 21rem;
+    opacity: 1;
+}
+.pers{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.inline{
+    display: inline;
+    background-color: #f5d04e;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.75rem;
+    font-weight: 900;
+    
+}
+.p , .para{
+    opacity: 1;
+    font-size: 0.9rem;
+}
+.para{
+    color: gray;
+}
+h1{
+    font-size: 1.5rem;
+}
+.list{
+    height: 2rem;
+    width: 8rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    
+}
+.greg{
+    font-size: 0.8rem;
+}
+h1:hover{
+    color: yellow;
+    cursor:pointer;
+}
+h1:focus{
+    color:purple;
+  
+}
